@@ -4,9 +4,9 @@ This repo contains (or at least will eventually contain) solutions to all the ex
 
 **Note:** View the solutions at [https://priyathamkat.github.io/bishop-prml/](https://priyathamkat.github.io/bishop-prml/) as GitHub doesn't render LaTeX in `.ipynb` notebooks properly.
 
-## Progress
+## Contents (progress)
 
-1. [Introduction](1.%20Introduction/solutions.html) (4/41)
+1. [Introduction](1.%20Introduction/solutions.html) (5/41)
 2. Probability Distributions (0/61)
 3. Linear Models for Regression (0/24)
 4. Linear Models for Classification (0/26)
