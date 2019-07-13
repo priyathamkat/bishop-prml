@@ -13147,36 +13147,32 @@ $$
     \begin{align*}
         \ln p(\pmb{x}|\mu, \sigma^2) = -\frac{1}{2\sigma^2}\sum_{n=1}^{N}(x_n-\mu)^2-\frac{N}{2}\ln \sigma^2 - \frac{N}{2}\ln (2\pi)
     \end{align*}
-$$
-<pre><code>Differentiating log-likelihood with respect to $\mu$,
-</code></pre>
+$$<p>Differentiating log-likelihood with respect to $\mu$,
 $$
     \begin{align*}
         \frac{\mathrm{d}\ln p(\pmb{x}|\mu, \sigma^2)}{\mathrm{d}\mu} = \frac{1}{2\sigma^2}\sum_{n=1}^{N}2(x_n-\mu)
     \end{align*}
 $$
-<pre><code>Setting it to 0, we get:
-</code></pre>
+Setting it to 0, we get:
 $$
     \begin{align*}
         \sum_{n=1}^{N}(x_n-\mu_{ML}) &amp;= 0 \\
         \implies \mu_{ML} &amp;= \frac{1}{N}\sum_{n=1}^{N}x_n
     \end{align*}
 $$
-<pre><code>Differentiating log-likelihood with respect to $\sigma^2$ ($\mu$ is set to its optimal value $\mu_{ML}$),
-</code></pre>
+Differentiating log-likelihood with respect to $\sigma^2$ ($\mu$ is set to its optimal value $\mu_{ML}$),
 $$
     \begin{align*}
     \frac{\mathrm{d}\ln p(\pmb{x}|\mu, \sigma^2)}{\mathrm{d}\sigma^2} = \frac{1}{2\sigma^4}\sum_{n=1}^{N}(x_n-\mu_{ML})^2-\frac{N}{2\sigma^2}
     \end{align*}
 $$
-<pre><code>Setting it to 0, we get:
-</code></pre>
+Setting it to 0, we get:
 $$
     \begin{align*}
         \sigma_{ML}^2 = \frac{1}{N}\sum_{n=1}^N(x-\mu_{ML})^2
     \end{align*}
-$$
+$$</p>
+
 </div>
 </div>
 </div>
