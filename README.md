@@ -6,20 +6,20 @@ This repo contains (or at least will eventually contain) solutions to all the ex
 
 ## Progress
 
-- [ ] 1. [Introduction](1.%20Introduction/solutions.html) (0/41)
-- [ ] 2. Probability Distributions (0/61)
-- [ ] 3. Linear Models for Regression (0/24)
-- [ ] 4. Linear Models for Classification (0/26)
-- [ ] 5. Neural Networks (0/41)
-- [ ] 6. Kernel Methods (0/27)
-- [ ] 7. Sparse Kernel Machines (0/19)
-- [ ] 8. Graphical Models (0/29)
-- [ ] 9. Mixture Models and EM (0/27)
-- [ ] 10. Approximate Inference (0/39)
-- [ ] 11. Sampling Methods (0/17)
-- [ ] 12. Continuous Latent Variables (0/29)
-- [ ] 13. Sequential Data (0/34)
-- [ ] 14. Combining Models (0/17)
+1. [Introduction](1.%20Introduction/solutions.html) (0/41)
+2. Probability Distributions (0/61)
+3. Linear Models for Regression (0/24)
+4. Linear Models for Classification (0/26)
+5. Neural Networks (0/41)
+6. Kernel Methods (0/27)
+7. Sparse Kernel Machines (0/19)
+8. Graphical Models (0/29)
+9. Mixture Models and EM (0/27)
+10. Approximate Inference (0/39)
+11. Sampling Methods (0/17)
+12. Continuous Latent Variables (0/29)
+13. Sequential Data (0/34)
+14. Combining Models (0/17)
 
 ---
 Please raise an [issue](https://github.com/priyathamkat/bishop-prml/issues/new) if you notice any inaccuracies.
