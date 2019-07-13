@@ -13142,6 +13142,23 @@ $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>30.</p>
+$$
+    \begin{align*}
+        \mathrm{KL}(p\|q) &amp;= -\int p(x) \ln \left(\frac{q(x)}{p(x)}\right) \mathrm{d}x \\
+                          &amp;= -\int p(x) \ln \left(\frac{\frac{1}{\sqrt{2\pi s^2}}e^{\frac{-(x-m)^2}{2s^2}}}{\frac{1}{\sqrt{2\pi \sigma^2}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}}\right) \mathrm{d}x \\
+                          &amp;= -\int p(x) \left( \ln \left(\frac{\sigma}{s}\right) + \frac{(x-\mu)^2}{2\sigma^2} - \frac{(x-m)^2}{2s^2}\right) \mathrm{d}x \\
+                          &amp;= \ln \frac{s}{\sigma} + \frac{1}{2s^2}\mathrm{E}_p[(x-m)^2]-\frac{1}{2\sigma^2}\mathrm{E}_p[(x-\mu)^2] \\
+                          &amp;= \ln \frac{s}{\sigma} + \frac{1}{2s^2}(\mu^2 + \sigma^2 - 2m\mu + m^2) - \frac{1}{2} \\
+                          &amp;= \ln \frac{s}{\sigma} + \frac{1}{2s^2}(\sigma^2 + (\mu - m)^2) - \frac{1}{2} \\
+    \end{align*}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>40.</p>
 <p>Let $a_1, a_2, \dots, a_n$ be $n$ real numbers. Applying Jensen's inequality (1.115) to the concave function $f(x) = \ln x$ on $a_1, a_2, \dots, a_n$ with $\lambda_i = \frac{1}{n} \, \forall i$ gives:
 $$
