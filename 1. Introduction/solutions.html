@@ -13243,6 +13243,60 @@ $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>4.</p>
+$$
+    \begin{align*}
+        x &amp;= g(y) \\
+        \implies p_y(y) &amp;= p_x(g(y))|g'(y)| \\
+    \end{align*}
+$$<p>Differentiating with respect to $y$,
+$$
+    \begin{align*}
+        p_y'(y) = p_x'(g(y))g'(y)|g'(y)| + p_x(g(y))g''(y)\frac{|g'(y)|}{g'(y)}
+    \end{align*}
+$$
+At the location $\hat{y}$ of the maximum of the density in $y$, the above derivative is 0
+$$
+    \begin{align*}
+        p_y'(\hat{y}) = p_x'(g(\hat{y}))g'(\hat{y})|g'(\hat{y})| + p_x(g(\hat{y}))g''(\hat{y})\frac{|g'(\hat{y})|}{g'(\hat{y})} &amp;= 0 \\
+        \implies p_x'(g(\hat{y}))g'(\hat{y}) + p_x(g(\hat{y}))\frac{g''(\hat{y})}{g'(\hat{y})} &amp;= 0 &amp; (\because |g'(\hat{y})| \neq 0 \text{ in general}) \\
+    \end{align*}
+$$
+If the location $\hat{x}$ of the maximum of the density in $x$ were such that $\hat{x} = g(\hat{y})$ then the above equation will reduce to
+$$
+    \begin{align*}
+        p_x'(\hat{x})g'(\hat{y}) + p_x(\hat{x})\frac{g''(\hat{y})}{g'(\hat{y})} &amp;= 0 \\
+        \implies p_x(\hat{x})\frac{g''(\hat{y})}{g'(\hat{y})} &amp;= 0 &amp; (\because p_x'(\hat{x}) = 0)
+    \end{align*}
+$$
+But the last equation is not true in general (for example consider $y \sim \mathcal{N}(1, 1), \ x = y^2$).</p>
+<p>If the transformation is linear, i.e., $x = ay, a \neq 0$, we have,
+$$
+    \begin{align*}
+        p_y(y) &amp;= p_x(ay)|a| \\
+    \end{align*}
+$$
+Differentiating with respect to $y$,
+$$
+    \begin{align*}
+        p_y'(y) &amp;= p_x'(ay)a|a| \\
+    \end{align*}
+$$
+At $\hat{y}$,
+$$
+    \begin{align*}
+        0 = p_y'(\hat{y}) = p_x'(a\hat{y})a|a| \\
+        \implies p_x'(a\hat{y}) = 0 \implies \hat{x} = a\hat{y} = g(\hat{y})
+    \end{align*}
+$$
+Note that this is trivially true even for the case $a=0$.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>11.</p>
 $$
     \begin{align*}
