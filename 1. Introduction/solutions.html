@@ -13297,6 +13297,22 @@ Note that this is trivially true even for the case $a=0$.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>5.</p>
+$$
+    \begin{align*}
+        \mathrm{var}[f(x)] &amp;= \mathbb{E}[(f(x) - \mathbb{E}[f(x)])^2] \\
+                           &amp;= \mathbb{E}[f(x)^2 - 2f(x)\mathbb{E}[f(x)] + \mathbb{E}[f(x)]^2] \\
+                           &amp;= \mathbb{E}[f(x)^2] - 2\mathbb{E}[f(x)\mathbb{E}[f(x)]] + \mathbb{E}[\mathbb{E}[f(x)]^2] \\
+                           &amp;= \mathbb{E}[f(x)^2] - 2\mathbb{E}[f(x)]^2 + \mathbb{E}[f(x)]^2 \\
+                           &amp;= \mathbb{E}[f(x)^2] - \mathbb{E}[f(x)]^2 \\
+    \end{align*}
+$$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>11.</p>
 $$
     \begin{align*}
