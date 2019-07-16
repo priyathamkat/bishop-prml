@@ -2,7 +2,7 @@
 
 This repo contains (or at least will eventually contain) solutions to all the exercises in [Pattern Recognition and Machine Learning - Christopher M. Bishop](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf), along with useful code snippets to illustrate certain concepts.
 
-**Note:** View the solutions at [https://priyathamkat.github.io/bishop-prml/](https://priyathamkat.github.io/bishop-prml/) as GitHub doesn't render LaTeX in `.ipynb` notebooks properly.
+**Note:** View the solutions at [https://priyathamkat.com/bishop-prml/](https://priyathamkat.github.io/bishop-prml/) as GitHub doesn't render LaTeX in `.ipynb` notebooks properly.
 
 ## Contents (progress)
 
