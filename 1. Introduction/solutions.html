@@ -13313,6 +13313,28 @@ $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>6.</p>
+$$
+    \begin{align*}
+        \mathbb{E}_{x,y}[xy] = \int xy p(x, y) \mathrm{d}x \mathrm{d}y
+    \end{align*}
+$$<p>If $x, y$ are independent, $p(x, y) = p(x)p(y)$. So, the above expectation becomes
+$$
+    \begin{align*}
+        \mathbb{E}_{x,y}[xy] &amp;= \int xy p(x)p(y) \mathrm{d}x \mathrm{d}y \\
+                             &amp;= \int x p(x) \mathrm{d}x \int yp(y) \mathrm{d}y \\
+                             &amp;= \mathbb{E}[x]\mathbb{E}[y]
+    \end{align*}
+$$<br>
+So when $x,y$ are independent $\mathrm{cov}[x,y] = \mathbb{E}_{x,y}[xy] - \mathbb{E}[x]\mathbb{E}[y] = \mathbb{E}[x]\mathbb{E}[y] - \mathbb{E}[x]\mathbb{E}[y] = 0$</p>
+<p>We can show that $\mathbb{E}_{x,y}[xy] = \mathbb{E}[x]\mathbb{E}[y]$ even when $x, y$ are independent discrete random variables.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>11.</p>
 $$
     \begin{align*}
