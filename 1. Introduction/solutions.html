@@ -13380,15 +13380,14 @@ $$</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>8.</p>
-
-<pre><code>$x \sim \mathcal{N}(\mu, \sigma^2)$
-</code></pre>
+<p>$x \sim \mathcal{N}(\mu, \sigma^2)$
 $$
     \begin{align*}
         \mathbb{E}[x] &amp;= \int_{-\infty}^{\infty} \mathcal{N}(x|\mu, \sigma^2) x \, \mathrm{d}x \\
                       &amp;= \int_{-\infty}^{\infty} \frac{1}{(2\pi\sigma^2)^{1/2}}\exp{\left(\frac{-1}{2\sigma^2}(x-\mu)^2\right)} x \, \mathrm{d}x \\
     \end{align*}
-$$<p>Substituting $t = x-\mu$,
+$$
+Substituting $t = x-\mu$,
 $$
     \begin{align*}
         \mathbb{E}[x] &amp;= \int_{-\infty}^{\infty} \frac{1}{(2\pi\sigma^2)^{1/2}}\exp{\left(\frac{-1}{2\sigma^2}t^2\right)} (t+\mu) \, \mathrm{d}t \\
