@@ -6,7 +6,7 @@ This repo contains (or at least will eventually contain) solutions to all the ex
 
 ## Contents (progress)
 
-1. [Introduction](1.%20Introduction/solutions.html) (14/41)
+1. [Introduction](1.%20Introduction/solutions.html) (15/41)
 2. Probability Distributions (0/61)
 3. Linear Models for Regression (0/24)
 4. Linear Models for Classification (0/26)
